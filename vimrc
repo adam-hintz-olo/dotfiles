@@ -281,3 +281,6 @@ endif
 " Go
 let g:go_fmt_command = 'goimports'
 
+" Commands to access visual block in environments (cough gVim) where <C-v>
+" does paste
+:command! VisualBlock execute "normal! \<C-v>"

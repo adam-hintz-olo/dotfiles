@@ -196,6 +196,8 @@ function gg() { git grep -i @args }
 
 function mkcd($dir) { mkdir $dir && cd $dir }
 
+#function which($cmd) { Get-Command | grep -i "$cmd" }
+
 # Chocolatey profile
 $ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
 if (Test-Path($ChocolateyProfile)) {
